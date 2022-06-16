@@ -12,7 +12,6 @@ export const loader = async ({ request }) => {
       console.log(error.message);
   }
 
-  console.log(channels)
     return { channels }
 }
 export default () => {
